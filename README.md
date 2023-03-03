@@ -1,5 +1,5 @@
 # WebXR-DePanther-VRTK
-A small prototype to show De-Panther WebXR Exporter for Unity (https://github.com/De-Panther/unity-webxr-export) in combination with VRTK (https://www.vrtk.io/).
+A small prototype to show De-Panther WebXR Exporter for Unity (https://github.com/De-Panther/unity-webxr-export) in combination with VRTK (https://www.vrtk.io/). You can try this here -> https://firedragongamestudio.github.io/WebXR-DePanther-VRTK/
 
 <p align="center">
 <img title="Overview" alt="Overview" src="https://user-images.githubusercontent.com/23502690/222677873-15660cf0-a386-42bd-a265-6e51915a559c.jpg" height="400">
