@@ -1,6 +1,10 @@
 # WebXR-DePanther-VRTK
 A small prototype to show De-Panther WebXR Exporter for Unity (https://github.com/De-Panther/unity-webxr-export) in combination with VRTK (https://www.vrtk.io/).
 
+<p align="center">
+<img title="Overview" alt="Overview" src="https://user-images.githubusercontent.com/23502690/222677873-15660cf0-a386-42bd-a265-6e51915a559c.jpg" height="400">
+</p>
+
 ## Quickstart (the preferred way)
 This project provides a sample and a template for getting started with a blank scene, where the WebXR export, as well as the input mapping and VRTK integration are already set up. When creating WebXR experiences, check the VRTK tutorials found here -> https://www.youtube.com/@VirtualRealityToolkit/videos No need to use any VRTK Input packages!!!! The usage of the input mapping is heavily inspired by VRTK Input packages and should provide all necessary actions. Furthermore a hand tracking and gesture recognition is ready to use too. Pls note that not every Tilia package was tested explicitly, so you may encounter problems, but in general everything should work.
 
@@ -13,9 +17,22 @@ FusedVR has a very good introduction on how to get started (https://www.youtube.
 ## The SampleScene
 The SampleScene (as the name states) is a showcase of using VRTK interactions with controllers and hand tracking. The WebXR cube on the table is grabable by controllers using the trigger and by hand tracking via index-finger pinch. The door in the back can be opened as well by grabbing it. No physics hands/controllers at the moment, but I'll try to add them later. Make sure the Interaction (small white cube in front of controllers or alongside the hand tracking wrist) touches the object you wanna interact with. Otherwise VRTK doesn't recognize the grab.
 
+<p align="center">
+<img title="Grab the cube" alt="Grab the cube" src="https://user-images.githubusercontent.com/23502690/222679125-83f8a60e-ef5f-4044-a763-9a6d2490319a.jpg" height="400">
+<img title="Open the door" alt="Open the door" src="https://user-images.githubusercontent.com/23502690/222679201-d2525faa-3334-4e69-9bb4-57b4b04cd593.jpg" height="400">
+</p>
+
 Teleporting is implemented via controller and hand input. When using controller the teleport curved line pointer is shown, when the thumbstick is touched. Press the thumbstick (click) to execute the teleport. When using hand tracking it gets a little trickier. Use (and hold) Middle Finger Pinch on your left hand to show the curved line pointer. Use (and release) Middle Finger Pinch on your right hand to execute the teleport. This interaction was inspired by Chamber from Valorant. As there is no standard for hand-tracking teleport yet, feel free to implement you own solutions :) 
 
+<p align="center">
+<img title="Teleporting" alt="Teleporting" src="https://user-images.githubusercontent.com/23502690/222677206-234da07c-76b7-4531-84f0-6b22203a8c83.png">
+</p>
+
 SnapTurn and Warp via controller is implemented to use the right thumbstick. Pressing forward/backword to blink and left/right to actually snap turn. Via hand tracking use the Pinky Finger Pinch to snap turn into the desired direction.
+
+<p align="center">
+<img title="Snap turn" alt="Snap turn" src="https://user-images.githubusercontent.com/23502690/222676108-9a2d5888-a054-4cff-8f38-0099c53076b8.png">
+</p>
 
 The cubes and spheres show states of tracked interactions with hand tracking (for left and right), following this color code:
 
@@ -24,7 +41,14 @@ The cubes and spheres show states of tracked interactions with hand tracking (fo
 	- Middle Finger Pinch -> Yellow
 	- Ring Finger Pinch -> Orange
 	- Pinky Finger Pinch -> Blue
-	
+
+<p float="left">
+<img title="Index Finger Pinch" alt="Index" src="https://user-images.githubusercontent.com/23502690/222676323-9f984bd2-bf57-4479-a3ce-bcdd08f24942.png" height="200">
+<img title="Middle Finger Pinch" alt="Middle" src="https://user-images.githubusercontent.com/23502690/222676273-f7d91173-8034-4805-926d-dd493a27e563.png" height="200">
+<img title="Ring Finger Pinch" alt="Ring" src="https://user-images.githubusercontent.com/23502690/222676194-fd1cafec-4000-4573-af39-f0c2248c56c2.png" height="200">
+<img title="Pinky Finger Pinch" alt="Pinky" src="https://user-images.githubusercontent.com/23502690/222676108-9a2d5888-a054-4cff-8f38-0099c53076b8.png" height="200">
+</p>
+
 - Sphere
 	- ThumbsUp Gesture -> Green
 	- Shaka Gesture -> Yellow
@@ -59,3 +83,6 @@ All interactions regarding hand-tracking calculate distances between the tracked
 ![image](https://user-images.githubusercontent.com/23502690/222664171-05ef2e2f-c06a-41c1-9568-5ba6b11642af.png)
 
 It's a little more complicated in case of gesture recognition. When using gestures, the distances of all fingertips to the wrist is calculated and compared to set distances. This WILL vary, due to tracked hand sizes, but can be tweaked via the general distance and threshold settings. Feel free to play around with these settings and implement your own gestures! :)
+
+## Informal
+This is just a sample implementation and will very likely NOT be maintained actively. Tested on an Oculus Quest 2. When working with hand tracking, make sure to have sufficient lighting, because of the camera based hand recognition.
