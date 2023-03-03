@@ -6,7 +6,7 @@ A small prototype to show De-Panther WebXR Exporter for Unity (https://github.co
 </p>
 
 ## Quickstart (the preferred way)
-This project provides a sample and a template for getting started with a blank scene, where the WebXR export, as well as the input mapping and VRTK integration are already set up. When creating WebXR experiences, check the VRTK tutorials found here -> https://www.youtube.com/@VirtualRealityToolkit/videos No need to use any VRTK Input packages!!!! The usage of the input mapping is heavily inspired by VRTK Input packages and should provide all necessary actions. Furthermore a hand tracking and gesture recognition is ready to use too. Pls note that not every Tilia package was tested explicitly, so you may encounter problems, but in general everything should work.
+This project provides a sample and a template for getting started with a blank scene, where the WebXR export, as well as the input mapping and VRTK integration are already set up. When creating WebXR experiences, check the VRTK tutorials found here -> https://www.youtube.com/@VirtualRealityToolkit/videos No need to use any VRTK Input packages!!!! The usage of the input mapping is heavily inspired by VRTK Input packages and should provide all necessary actions. Furthermore a hand tracking and gesture recognition is ready to use too and you can switch between hands and controllers. Pls note that not every Tilia package was tested explicitly, so you may encounter problems, but in general everything should work.
 
 ![image](https://user-images.githubusercontent.com/23502690/222663666-3065ce1c-31a5-4a46-b879-ed1658bfe955.png)
 ![image](https://user-images.githubusercontent.com/23502690/222663887-1afa8365-5bd3-482d-9a7b-fcd88eae8cba.png)
@@ -15,7 +15,7 @@ This project provides a sample and a template for getting started with a blank s
 FusedVR has a very good introduction on how to get started (https://www.youtube.com/watch?v=RKpa2tDvNiQ), but it's a little bit outdated. So in case you want to start from scratch, check out my updated and simplified tutorial here -> (coming soon) I added some information for easier testing and setup as well, so make sure to check it out. :)
 
 ## The SampleScene
-The SampleScene (as the name states) is a showcase of using VRTK interactions with controllers and hand tracking. The WebXR cube on the table is grabable by controllers using the trigger and by hand tracking via index-finger pinch. The door in the back can be opened as well by grabbing it. No physics hands/controllers at the moment, but I'll try to add them later. Make sure the Interaction (small white cube in front of controllers or alongside the hand tracking wrist) touches the object you wanna interact with. Otherwise VRTK doesn't recognize the grab.
+The SampleScene (as the name states) is a showcase of using VRTK interactions with controllers and hand tracking. The WebXR cube on the table is grabable by controllers using the trigger and by hand tracking via index-finger pinch. The door in the back can be opened as well by grabbing it. No physics interactions with hands/controllers at the moment, but I'll try to add them later. Make sure the Interaction (small white cube in front of controllers or alongside the hand tracking wrist) touches the object you wanna interact with. Otherwise VRTK doesn't recognize the grab.
 
 <p align="center">
 <img title="Grab the cube" alt="Grab the cube" src="https://user-images.githubusercontent.com/23502690/222679125-83f8a60e-ef5f-4044-a763-9a6d2490319a.jpg" height="400">
