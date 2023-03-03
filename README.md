@@ -15,6 +15,8 @@ The SampleScene (as the name states) is a showcase of using VRTK interactions wi
 
 Teleporting is implemented via controller and hand input. When using controller the teleport curved line pointer is shown, when the thumbstick is touched. Press the thumbstick (click) to execute the teleport. When using hand tracking it gets a little trickier. Use (and hold) Middle Finger Pinch on your left hand to show the curved line pointer. Use (and release) Middle Finger Pinch on your right hand to execute the teleport. This interaction was inspired by Chamber from Valorant. As there is no standard for hand-tracking teleport yet, feel free to implement you own solutions :) 
 
+SnapTurn and Warp via controller is implemented to use the right thumbstick. Pressing forward/backword to blink and left/right to actually snap turn. Via hand tracking use the Pinky Finger Pinch to snap turn into the desired direction.
+
 The cubes and spheres show states of tracked interactions with hand tracking (for left and right), following this color code:
 
 -  Cube
