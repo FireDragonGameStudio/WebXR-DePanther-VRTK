@@ -2337,7 +2337,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -2358,7 +2358,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -3104,7 +3104,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -3125,7 +3125,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -3919,7 +3919,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -3940,7 +3940,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -5378,7 +5378,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -5399,7 +5399,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -7843,7 +7843,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -7864,7 +7864,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -9857,7 +9857,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -9878,7 +9878,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -10443,7 +10443,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -10464,7 +10464,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -11072,7 +11072,7 @@ MonoBehaviour:
   Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
@@ -11093,7 +11093,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 655185358}
+      - m_Target: {fileID: 1932591772}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_sharedMaterial
         m_Mode: 2
