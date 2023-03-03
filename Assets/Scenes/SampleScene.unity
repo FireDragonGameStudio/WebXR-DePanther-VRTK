@@ -9938,8 +9938,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originTransform: {fileID: 47420163}
   visual: {fileID: 1023753513}
-  leftController: {fileID: 0}
-  rightController: {fileID: 0}
+  leftController: {fileID: 1980048863}
+  rightController: {fileID: 1980048862}
 --- !u!1 &1836559705
 GameObject:
   m_ObjectHideFlags: 0
