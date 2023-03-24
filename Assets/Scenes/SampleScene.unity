@@ -1188,7 +1188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 270728292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4036b9ba333d7942993f9a68be9fe22, type: 3}
+  m_Script: {fileID: 11500000, guid: ab7fa20de6a0ade49ba80f526fe045ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ActivationStateChanged:
@@ -1213,7 +1213,6 @@ MonoBehaviour:
   equalityTolerance: 1e-45
   controller: {fileID: 1980048862}
   axis2DType: 1
-  axisModel: 1
 --- !u!1 &279379507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,7 +2436,6 @@ MonoBehaviour:
   equalityTolerance: 1e-45
   controller: {fileID: 1980048862}
   axis2DType: 1
-  axisModel: 0
 --- !u!1 &484599384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5709,7 +5707,6 @@ MonoBehaviour:
   equalityTolerance: 1e-45
   controller: {fileID: 1980048862}
   axis2DType: 0
-  axisModel: 0
 --- !u!1 &1128924058
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,7 +6218,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225150933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4036b9ba333d7942993f9a68be9fe22, type: 3}
+  m_Script: {fileID: 11500000, guid: ab7fa20de6a0ade49ba80f526fe045ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ActivationStateChanged:
@@ -6246,7 +6243,6 @@ MonoBehaviour:
   equalityTolerance: 1e-45
   controller: {fileID: 1980048862}
   axis2DType: 0
-  axisModel: 1
 --- !u!1 &1236311392
 GameObject:
   m_ObjectHideFlags: 0
@@ -7984,7 +7980,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1581185299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4036b9ba333d7942993f9a68be9fe22, type: 3}
+  m_Script: {fileID: 11500000, guid: ab7fa20de6a0ade49ba80f526fe045ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ActivationStateChanged:
@@ -8008,8 +8004,7 @@ MonoBehaviour:
   value: 0
   equalityTolerance: 1e-45
   controller: {fileID: 1980048863}
-  axis2DType: 1
-  axisModel: 1
+  axis2DType: 0
 --- !u!1 &1591902278
 GameObject:
   m_ObjectHideFlags: 0
@@ -9530,7 +9525,6 @@ MonoBehaviour:
   equalityTolerance: 1e-45
   controller: {fileID: 1980048863}
   axis2DType: 0
-  axisModel: 0
 --- !u!1 &1793744100
 GameObject:
   m_ObjectHideFlags: 0
@@ -10641,7 +10635,6 @@ MonoBehaviour:
   equalityTolerance: 1e-45
   controller: {fileID: 1980048863}
   axis2DType: 1
-  axisModel: 0
 --- !u!1001 &1980048861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11213,7 +11206,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2127133264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4036b9ba333d7942993f9a68be9fe22, type: 3}
+  m_Script: {fileID: 11500000, guid: ab7fa20de6a0ade49ba80f526fe045ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ActivationStateChanged:
@@ -11238,7 +11231,6 @@ MonoBehaviour:
   equalityTolerance: 1e-45
   controller: {fileID: 1980048863}
   axis2DType: 0
-  axisModel: 1
 --- !u!1 &2146912410
 GameObject:
   m_ObjectHideFlags: 0

@@ -74,7 +74,7 @@ The cubes and spheres show states of tracked interactions with hand tracking (fo
 This scene acts as boilerplate template, where the WebXR export, as well as the input mapping (controller + hands) and VRTK integration are already set up. Everything else, from teleporting to interactions must be implemented from scratch. Check out the VRTK Youtube channel (https://www.youtube.com/@VirtualRealityToolkit) and resources (https://www.vrtk.io/) for tutorials and inspiration.
 
 ## The details
-Especially the hand tracking interactions resluts may vary. I implemented everything to work as reliable as possible, by granting thresholds that should work with neary every use-case. You can easily change those thresholds and limits by altering the numbers on the relevant actions in Unity.
+Especially the hand tracking interactions results may vary. I implemented everything to work as reliable as possible, by granting thresholds that should work with neary every use-case. You can easily change those thresholds and limits by altering the numbers on the relevant actions in Unity.
 
 ### What does that mean?
 All interactions regarding hand-tracking calculate distances between the tracked fingertips. The scripts working like this are GestureAction.cs and PinchAchtion.cs. E.g. if the distance between the thumb tip and index finger tip is less than 2cm, it's very likely that the hand executed a pinch. There is room for improvement, but it works pretty good most of the time and is generally not affecting performance.
