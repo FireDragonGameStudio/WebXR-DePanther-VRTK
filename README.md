@@ -70,6 +70,9 @@ The cubes and spheres show states of tracked interactions with hand tracking (fo
 <img title="Four" alt="Four" src="https://user-images.githubusercontent.com/23502690/205272749-1e34e780-fa5e-4244-bc8a-3b4d7730ea0d.png" height="200">
 </p>
 
+## The VRBowling scene
+This sample is based on the VRTK tutorial located here - https://academy.vrtk.io/Documentation/Tutorials/ and modified in a way to make it usable with WebXR. The video tutorial for setting everything up is here - https://www.youtube.com/watch?v=bzz6ymwUI7A An empty scene is shipped for starters.
+
 ## The TemplateScene
 This scene acts as boilerplate template, where the WebXR export, as well as the input mapping (controller + hands) and VRTK integration are already set up. Everything else, from teleporting to interactions must be implemented from scratch. Check out the VRTK Youtube channel (https://www.youtube.com/@VirtualRealityToolkit) and resources (https://www.vrtk.io/) for tutorials and inspiration.
 
